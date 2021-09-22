@@ -1,0 +1,64 @@
+html {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#question {
+    height: 28px;
+    padding-right: 30px;
+}
+
+.input button {
+    height: 34px;
+    margin-left: -29px;
+}
+
+.ball {
+    background: radial-gradient(ellipse at top, rgba(58, 58, 58, 0.418), black),
+            radial-gradient(ellipse at right, rgba(0, 0, 0, 0.5), black);
+    border-radius: 1000px;
+    height: 550px;
+    width: 550px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+.inner {
+    background-color: rgb(0, 0, 0);
+    border-radius: 1000px;
+    border: 10px rgb(48, 48, 48) double;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 175px solid rgba(10, 0, 146, 0.856);
+    margin: 50px auto 0;
+    display: none;
+}
+
+.ball p {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    top: -150px;
+    left: -50px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
