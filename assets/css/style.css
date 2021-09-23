@@ -3,8 +3,10 @@ html {
     text-align: center;
     background-image: url('../wallpaperbetter.com_1280x800.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
 }
 
 @font-face {
@@ -62,7 +64,7 @@ h1 {
 }
 
 .inner {
-    background-color: rgb(0, 1, 15);
+    background-color: rgb(0, 1, 10);
     border-radius: 50%;
     border: 12px rgb(48, 48, 48) double;
     height: 250px;
