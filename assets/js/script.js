@@ -3,8 +3,10 @@ let button = document.querySelector("button");
 let answer = document.querySelector("#answer");
 let triangle = document.querySelector(".triangle");
 let input = document.querySelector("input");
+let question = document.querySelector("#question").value
 
 button.addEventListener("click", function() {
+  if (question !== '') {
   let randomNumber = Math.floor(Math.random() * 8);
 
   switch (randomNumber){
@@ -39,6 +41,7 @@ button.addEventListener("click", function() {
   answer.style.display = "block";
   triangle.style.display = "block";
   triangle.style.opacity = "1";
+  } else { alert("Please enter a question!");
 });
 
 input.addEventListener("click", function() {
