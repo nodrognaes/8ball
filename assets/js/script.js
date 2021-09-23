@@ -41,7 +41,7 @@ button.addEventListener("click", function() {
   answer.style.display = "block";
   triangle.style.display = "block";
   triangle.style.opacity = "1";
-  } else { alert("Please enter a question!");
+  } else { alert("Please enter a question!")}
 });
 
 input.addEventListener("click", function() {
